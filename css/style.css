@@ -1,0 +1,164 @@
+.skip{
+    position: absolute;
+    top: -40px;
+}
+
+.skip:focus{
+    top: 20px;
+}
+
+img{
+    width: 60%;
+    margin: 0 20% 0% 20%;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}
+
+ol{
+    display: grid;
+    column-gap: 5%;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1{
+    margin: 0%;
+}
+
+section{
+    padding: 1%;
+}
+
+div{
+    padding: 1%;
+}
+
+p{
+    padding: 1%;
+    overflow: auto;
+}
+
+body{
+    background-color: #00274C;
+}
+
+footer{
+    background-color: #FFCB05;
+    color:#00274C;
+}
+
+header{
+    background-color: #FFCB05;
+}
+
+/**Home Page**/
+.welcome{
+    background-color: #00B2A9;
+}
+
+.physical{
+    background-color: #CFC096;
+}
+
+.mental{
+    background-color: #655A52;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mentalhead{
+    grid-column: 1 / span 2;
+}
+
+#life-outside-classroom{
+    background-color: #D86018;
+}
+
+/**Page one**/
+.p_page1{
+    background-color: #00B2A9;
+}
+
+.academic_res{
+    background-color: #FFCB05;
+}
+
+.additional_res{
+    background-color: #CFC096;
+}
+
+.emergency{
+    background-color: #A5A508;
+}
+
+/**Page two**/
+.ol_page2{
+    display: block;
+}
+
+.sect_page2{
+    background-color: #A5A508;
+}
+
+.sect_page2_link{
+    background-color: #FFCB05;
+}
+
+.p_page2{
+    background-color: #00B2A9;
+}
+
+.recipies{
+    background-color: #FFCB05;
+}
+
+.contpagetwo{
+    background-color: #FFCB05;
+}
+
+/**Page 3**/
+.sect_page3{
+    background-color: #989C97;
+}
+
+.page3_sect{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ciscm_page3{
+    background-color: #A5A508;
+}
+
+.food_page3{
+    background-color: #FFCB05;
+}
+
+.finance_page3{
+    background-color: #CFC096;
+}
+
+.finance_p_page3{
+    color: #00274C;
+}
+
+.finance_h_page3{
+    color: #00274C;
+}
+
+.health_page3{
+    background-color: #FFFFFF;
+}
+
+.house_page3{
+    background-color: #FFFFFF;
+}
+
+.career_page3{
+    background-color: #CFC096;
+    color: #00274C;
+}
