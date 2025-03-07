@@ -1,5 +1,5 @@
 *{
-    font-family: Merriweather;
+    font-family: 'Merriweather';
 }
 
 .skip{
@@ -25,6 +25,7 @@ body{
 
 section{
     padding: 1%;
+    overflow: auto;
 }
 
 div{
@@ -46,6 +47,8 @@ ul{
 .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .button{
@@ -55,7 +58,7 @@ ul{
 }
 
 .selected{
-    background-color: #FFFFFF;
+    background-color: #CFC096;
     border: 5px solid #00274C;
     color: #FFCB05;
     text-align: center;
@@ -108,7 +111,6 @@ footer{
 /**Page one**/
 .p_page1{
     background-color: #00B2A9;
-    padding: 3%;
 }
 
 .academic_res{
@@ -138,6 +140,7 @@ footer{
 
 .p_page2{
     background-color: #00B2A9;
+    margin: 0%;
 }
 
 .recipies{
@@ -180,11 +183,11 @@ footer{
 }
 
 .health_page3{
-    background-color: #FFFFFF;
+    background-color: #CFC096;
 }
 
 .house_page3{
-    background-color: #FFFFFF;
+    background-color: #CFC096;
 }
 
 .career_page3{
