@@ -7,25 +7,16 @@
     top: 20px;
 }
 
-img{
-    width: 60%;
-    margin: 0 20% 0% 20%;
-}
-
-ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5%;
-}
-
-ol{
-    display: grid;
-    column-gap: 5%;
-    grid-template-columns: 1fr 1fr;
+header{
+    background-color: #FFCB05;
 }
 
 h1{
-    margin: 0%;
+    padding: 1%;
+}
+
+body{
+    background-color: #00274C;
 }
 
 section{
@@ -34,6 +25,7 @@ section{
 
 div{
     padding: 1%;
+    overflow: auto;
 }
 
 p{
@@ -41,17 +33,48 @@ p{
     overflow: auto;
 }
 
-body{
-    background-color: #00274C;
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button{
+    border: 5px solid #00274C;
+    color: #FFCB05;
+    text-align: center;
+}
+
+.selected{
+    background-color: #FFFFFF;
+    border: 5px solid #00274C;
+    color: #FFCB05;
+    text-align: center;
+}
+
+ol{
+    display: grid;
+    column-gap: 5%;
+    grid-template-columns: 1fr 1fr;
+}
+
+img{
+    width: 100%;
+}
+
+.top_img{
+    width: 40%;
+    margin: 0 30% 0 30%;
 }
 
 footer{
     background-color: #FFCB05;
     color:#00274C;
-}
-
-header{
-    background-color: #FFCB05;
 }
 
 /**Home Page**/
@@ -81,6 +104,7 @@ header{
 /**Page one**/
 .p_page1{
     background-color: #00B2A9;
+    padding: 3%;
 }
 
 .academic_res{
@@ -125,9 +149,10 @@ header{
     background-color: #989C97;
 }
 
-.page3_sect{
+.sect_grid_page3{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1%;
 }
 
 .ciscm_page3{
