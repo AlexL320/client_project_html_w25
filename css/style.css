@@ -1,3 +1,7 @@
+*{
+    font-family: Merriweather;
+}
+
 .skip{
     position: absolute;
     top: -40px;
