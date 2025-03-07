@@ -1,5 +1,6 @@
 *{
     font-family: 'Merriweather';
+    font-weight: 100;
 }
 
 .skip{
@@ -106,6 +107,8 @@ footer{
 
 #life-outside-classroom{
     background-color: #D86018;
+    padding: 15px;
+    overflow: auto;
 }
 
 /**Page one**/
