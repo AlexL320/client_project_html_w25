@@ -107,8 +107,9 @@ footer{
 
 #life-outside-classroom{
     background-color: #D86018;
-    padding: 15px;
+    padding: 7%;
     overflow: auto;
+    display: grid;
 }
 
 /**Page one**/
