@@ -150,6 +150,11 @@ footer{
     background-color: #FFCB05;
 }
 
+.ol_page2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .contpagetwo{
     background-color: #FFCB05;
 }
