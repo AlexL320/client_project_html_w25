@@ -3,6 +3,12 @@
     font-weight: 100;
 }
 
+.error404{
+    color: #00274C;
+    font-size: 100px;
+    background-color: #FFCB05;
+}
+
 .skip{
     position: absolute;
     top: -40px;
@@ -18,6 +24,31 @@ header{
 
 h1{
     padding: 1%;
+    font-size: 50px;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    display: block;
+}
+
+h2{
+    font-size: 30px;
+    margin: 25px;
+    display: block;
+}
+
+h3{
+    display: block;
+    font-size: 20px;
+    margin: 3%;
+}
+
+p{
+    padding: 2%;
+    margin: 2%;
+    overflow: auto;
+    font-size: 16px;
+    display: block;
 }
 
 body{
@@ -34,17 +65,6 @@ div{
     overflow: auto;
 }
 
-p{
-    padding: 1%;
-    overflow: auto;
-}
-
-ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5%;
-}
-
 .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -56,6 +76,7 @@ ul{
     border: 5px solid #00274C;
     color: #FFCB05;
     text-align: center;
+    margin: 2%;
 }
 
 .selected{
@@ -69,6 +90,20 @@ ol{
     display: grid;
     column-gap: 5%;
     grid-template-columns: 1fr 1fr;
+    list-style-type: decimal;
+    padding: 2%;
+    margin: 2%;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+    list-style-type: circle;
+}
+
+li{
+    margin: 1%;
 }
 
 img{
@@ -88,10 +123,14 @@ footer{
 /**Home Page**/
 .welcome{
     background-color: #00B2A9;
+    padding: 2%;
+    margin: 2%;
 }
 
 .physical{
     background-color: #CFC096;
+    padding: 1%;
+    margin: 1%;
 }
 
 .mental{
@@ -202,4 +241,320 @@ footer{
 .career_page3{
     background-color: #CFC096;
     color: #00274C;
+}
+
+@media (min-width: 1000px){
+    *{
+        font-family: 'Merriweather';
+        font-weight: 100;
+    }
+    
+    .skip{
+        position: absolute;
+        top: -40px;
+    }
+    
+    .skip:focus{
+        top: 20px;
+    }
+    
+    header{
+        background-color: #FFCB05;
+    }
+    
+    body{
+        background-color: #00274C;
+    }
+    
+    section{
+        padding: 1%;
+        overflow: auto;
+    }
+    
+    div{
+        padding: 1%;
+        overflow: auto;
+    }
+    
+    p{
+        padding: 1%;
+        overflow: auto;
+    }
+    
+    .buttons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .button{
+        border: 5px solid #00274C;
+        color: #FFCB05;
+        text-align: center;
+    }
+    
+    .selected{
+        background-color: #CFC096;
+        border: 5px solid #00274C;
+        color: #FFCB05;
+        text-align: center;
+    }
+    
+    img{
+        width: 100%;
+    }
+    
+    .top_img{
+        width: 40%;
+        margin: 0 30% 0 30%;
+    }
+    
+    footer{
+        background-color: #FFCB05;
+        color:#00274C;
+    }
+    
+    /**Home Page**/
+    #main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .welcome{
+        color: #FFFFFF;
+        grid-column: 2 / span 3;
+        margin: 2%;
+        background-color: #00274C;
+    }
+    
+    .physical{
+        display: grid;
+        grid-column: 1 / span 5;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2%;
+        background-color: #CFC096;
+        padding: 2%;
+        margin: 2%;
+    }
+
+    .h2_physical{
+        grid-column: 1 / span 2;
+    }
+
+    .p_physical{
+        grid-column: 1 / span 2;
+    }
+    
+    .mental{
+        display: grid;
+        grid-column: 2 / span 4;
+        grid-template-columns: 1fr 1fr;
+        background-color: #655A52;
+        color: #FFFFFF;
+        padding: 2%;
+        margin: 2%;
+        column-gap: 2%;
+    }
+    
+    .mentalhead{
+        grid-column: 1 / span 2;
+    }
+    
+    #life-outside-classroom{
+        grid-column: 1 / span 5;
+        background-color: #00B2A9;
+        padding: 3%;
+        margin: 2%;
+        overflow: auto;
+    }
+
+    /**Page one**/
+    .page1_imgs1{
+        display: grid;
+        grid-column: 4 / span 2;
+        grid-template-columns: 1fr;
+        padding: 2%;
+        margin: 2%;
+    }
+
+    .page1_imgs2{
+        grid-column: 1 / span 2;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2%;
+        margin: 2%;
+    }
+
+    .div_page1{
+        background-color: #00B2A9;
+        grid-column: 1 / span 5;
+        margin: 2%;
+    }
+
+    .academic_res{
+        background-color: #FFCB05;
+        grid-column: 1 / span 3;
+        padding: 3%;
+        margin: 2%;
+    }
+
+    .additional_res{
+        background-color: #CFC096;
+        grid-column: 3 / span 3;
+        padding: 2%;
+        margin: 2%;
+    }
+
+    .emergency{
+        background-color: #A5A508;
+        grid-column: 1 / span 5;
+        padding: 2%;
+        margin: 2%;
+    }
+
+    .ul_page1{
+        padding: 1%;
+    }
+
+    .li_page1{
+        padding: 2%;
+    }
+
+    /**Page two**/
+    .ol_welcome_page2{
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .sect_page2{
+        background-color: #A5A508;
+        grid-column: 2 / span 3;
+        margin: 2%;
+        text-align: center;
+    }
+    
+    .p1_page2{
+        background-color: #00B2A9;
+        grid-column: 1 / span 3;
+        font-size: 20px;
+        padding: 2%;
+        margin: 2%;
+        text-align: center;
+    }
+
+    .p2_page2{
+        background-color: #00B2A9;
+        grid-column: 1 / span 5;
+        font-size: 20px;
+        padding: 2%;
+        margin: 2%;
+    }
+
+    .page2_img_storage{
+        grid-column: 4 / span 2;
+    }
+
+    .sect_page2_link{
+        background-color: #FFCB05;
+        grid-column: 2 / span 3;
+        margin: 2%;
+    }
+    
+    .recipies{
+        background-color: #FFCB05;
+        grid-column: 1 / span 5;
+        margin: 2%;
+        font-size: 20px;
+    }
+    
+    .ol_page2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2%;
+    }
+
+    .li_page2{
+        font-size: 20px;
+    }
+
+    .img_page2{
+        margin: 3%;
+    }
+    
+    .contpagetwo{
+        background-color: #FFCB05;
+        grid-column: 1 / span 5;
+        margin: 2%;
+    }
+
+    .h2_contact{
+        margin: 0%;
+    }
+
+    .p_contact{
+        margin: 0%;
+    }
+
+    /**Page 3**/
+    .sect_page3{
+        background-color: #989C97;
+        grid-column: 2 / span 3;
+    }
+
+    .page3_img{
+        width: 70%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .page3_h2{
+        margin: 1%;
+        color: #00274C;
+    }
+
+    .sect_grid_page3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1%;
+        grid-column: 1 / span 5;
+    }
+
+    .ciscm_page3{
+        background-color: #A5A508;
+        padding: 1%;
+    }
+
+    .food_page3{
+        background-color: #FFCB05;
+        padding: 1%;
+    }
+
+    .finance_page3{
+        background-color: #CFC096;
+        padding: 5%;
+        overflow: hidden;
+        color: #00274C;
+    }
+
+    .health_page3{
+        background-color: #CFC096;
+        padding: 5%;
+        overflow: hidden;
+        color: #00274C;
+    }
+
+    .house_page3{
+        background-color: #CFC096;
+        padding: 5%;
+        overflow: hidden;
+        color: #00274C;
+    }
+
+    .career_page3{
+        background-color: #CFC096;
+        color: #00274C;
+        padding: 5%;
+        overflow: hidden;
+    }
 }
